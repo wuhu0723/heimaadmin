@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-     <el-row>
-      <el-button type="primary">主要按钮</el-button>
-    </el-row>
+    <router-view></router-view>
   </div>
 </template>
 
