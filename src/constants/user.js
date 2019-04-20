@@ -1,0 +1,1 @@
+export const USER_KEY = 'heima_user'

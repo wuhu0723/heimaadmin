@@ -9,11 +9,14 @@ export default new Router({
     routes: [{
         path: '/',
         component: Layout,
-        // redirect: '/index',
+        redirect: '/index',
         name: 'mainindex',
-        // children: [{
-
-        // }]
+        children: [
+            {
+                path: '/index',
+                component: () => import('@/views/dashboard/index.vue'),
+            }
+        ]
     }]
 
 })
