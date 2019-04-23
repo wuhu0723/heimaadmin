@@ -6,7 +6,7 @@ export function setStore (key,value){
         return
     }
     if(value){
-        value == typeof value !== 'string' ? JSON.stringify(value) : value
+        value = (typeof value) !== 'string' ? JSON.stringify(value) : value
     }
     localStorage.setItem(key,value)
 }

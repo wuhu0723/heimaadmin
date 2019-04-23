@@ -1,0 +1,16 @@
+export const  API_GETPHONECODE = 'sms/codes/' //获取短信验证码
+export const  API_USERAUTH = 'authorizations' //用户认证
+export const  API_CAPTCHAS = 'captchas/' //人机验证码
+export const  API_USERIMAGES = 'user/images' //用户图片素材 获取采用get 上传采用post
+export const  API_CHANNELS = 'channels' //获取文章频道
+export const  API_ARTICLES = 'articles' //post文章(新建)  get拉取文章列表
+export const  API_SEARCHARTICELS = 'search' //检索文章
+export const  API_COMMENTS = 'comments'  //获取评论或者评论回复
+export const  API_CLOSECOMMENTS = 'comments/status' //关闭或者打开评论
+export const  API_ADMIRECOMMENT = 'comment/likings' //对评论或回复点赞
+export const  API_CANCELADMIRECOMMENT = 'comment/likings/' //对评论或回复取消点赞
+export const  API_MODIFYIMAGE = 'user/images/' //删除用户素材 或 修改收藏状态接口
+export const  API_USERPROFILE = 'user/profile' //获取用户个人资料
+export const  API_FANS = 'followers' //粉丝列表
+export const  API_GENDER = 'statistics/followers/gender' //获取粉丝性别同级数据
+export const  API_HEAD = 'user/photo' //编辑用户信息
